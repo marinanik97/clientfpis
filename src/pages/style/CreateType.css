@@ -1,0 +1,73 @@
+.div-form {
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+    height: 400px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+.div-form1{
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    height: 200px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.form-create-type select {
+  width: 250px;
+  margin: 20px;
+  padding: 10px;
+  display: block;
+  border-radius: 5px;
+  border: 2px solid #3f51b5;
+}
+
+.buttonsEdit {
+  width: 300px;
+  height: 80px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myButton {
+ background: #3f51b5;
+  background-color: #3f51b5;
+  border-radius: 5px;
+  border: 1px solid #3f51b5;
+  display: -webkit-inline-box;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 8px 8px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3f51b5;
+  margin: 8px;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #3f51b5 5%, #3f51b5 100%);
+  background-color: #3f51b5;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.action_container{
+    margin-top: 20px;
+}
+
+.action_container > *{
+    margin-left: 10px !important;
+}

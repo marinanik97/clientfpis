@@ -1,0 +1,68 @@
+.main-header {
+  background-color: #e6f2ff;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  
+}
+
+/* #1a75ff od ove boje sam uzimala ostale boje 
+#66b3ff tamnija
+#e6f2ff svetlija
+*/
+.menu-style {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  
+}
+.menu-style ul {
+  
+}
+a {
+  text-decoration: none;
+}
+
+.menu-style li {
+  display: inline;
+  margin: 30px;
+  background-color: #e6f2ff;
+  font-size: 25px;
+}
+
+/*poslednje izbacena ova dva*/
+/* .menu-style li :hover,
+.menu-style li.active {
+  border-color: black;
+  border-radius: 15px;
+ 
+}
+
+
+.menu-style a.active {
+  text-decoration: underline;
+  text-decoration-color: #66b3ff;
+} */
+
+/* .menu-style a :hover{
+  transform: scale(1.5);
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out 0.1s;
+} */
+
+/* .header{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: #66b3ff;
+  height: 50px;
+}
+
+.header > *{
+  margin-left: 20px;
+  color: white;
+  letter-spacing: 0;
+} */
